@@ -300,6 +300,15 @@ window.location = "https://ambientweather.net/";
 }
 });
 	
+	
+$(document).on('keypress', function(e) {
+
+if(String.fromCharCode(e.which) == 'g' || String.fromCharCode(e.which) == 'G')
+{
+window.location = "https://www.google.com";
+}
+});
+	
 </script>
 </body>
 </html>
