@@ -128,7 +128,7 @@ var options = {
 }
 function createGUI() {
   var gui = new dat.GUI();
-   //gui.close();
+  gui.close();
   
   var configGUI = gui.addFolder('Setup');
   configGUI.add(options.perlin, 'speed', 0.0, 0.001);
