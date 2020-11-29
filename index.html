@@ -267,13 +267,39 @@
 
 <script>
   
-  $(document).on('keypress', function(e) {
-  
-	if(String.fromCharCode(e.which) == 'n' || String.fromCharCode(e.which) == 'N')
+$(document).on('keypress', function(e) {
+
+if(String.fromCharCode(e.which) == 'n' || String.fromCharCode(e.which) == 'N')
+{
+	window.location = "https://www.wikipedia.org";
+}
+});
+	
+$(document).on('keypress', function(e) {
+
+	if(String.fromCharCode(e.which) == 'm' || String.fromCharCode(e.which) == 'M')
 	{
-		window.location = "https://www.wikipedia.org";
+		window.location = "https://www.google.com/maps";
 	}
 	});
+	
+$(document).on('keypress', function(e) {
+
+if(String.fromCharCode(e.which) == 's' || String.fromCharCode(e.which) == 'S')
+{
+	window.location = "https://open.spotify.com/";
+}
+});
+	
+	
+$(document).on('keypress', function(e) {
+
+if(String.fromCharCode(e.which) == 'w' || String.fromCharCode(e.which) == 'W')
+{
+window.location = "https://ambientweather.net/";
+}
+});
+	
 </script>
 </body>
 </html>
